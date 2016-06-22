@@ -14,9 +14,13 @@ def ok():
     print app.set_accels_for_action( "win.up", ["BackSpace"] )
     #print app.get_actions_for_accel("BackSpace")
     #print app.get_actions_for_accel("<alt>Up")
-   
-class BackspaceBack(GObject.GObject, Nautilus.MenuProvider):
+
+
+class BackspaceBack(GObject.GObject, Nautilus.LocationWidgetProvider):
     def __init__(self):
-        print "--- Plugin BackspaceBack ---"
-        GLib.timeout_add( 3000, ok )
+        pass
+    
+    def get_widget(self, uri, window):
+        ok()
+        return None
 
