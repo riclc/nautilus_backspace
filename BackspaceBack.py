@@ -11,7 +11,7 @@ from gi.repository import GObject, Nautilus, Gtk, Gio, GLib
 
 def ok():
     app = Gtk.Application.get_default()
-    print app.set_accels_for_action( "win.up", ["BackSpace"] )
+    app.set_accels_for_action( "win.up", ["BackSpace"] )
     #print app.get_actions_for_accel("BackSpace")
     #print app.get_actions_for_accel("<alt>Up")
 
