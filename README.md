@@ -3,7 +3,7 @@
 Brings back the Backspace shortcut to Nautilus
 
 
-### Installing Prerequisites
+### Prerequisites
 To work properly, you will need to have the following packages:
 
 ```
