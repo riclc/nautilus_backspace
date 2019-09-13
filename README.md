@@ -1,8 +1,8 @@
 # Backspace-Up
------------------------
+
 Brings back the Backspace shortcut to Nautilus
 
------------------------
+
 ## Dependencies
 
 - `python-nautilus` or `nautilus-python` package [will be installed automatically]
