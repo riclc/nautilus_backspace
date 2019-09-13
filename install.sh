@@ -35,7 +35,7 @@ rm -f ~/.local/share/nautilus-python/extensions/BackspaceBack.py
 
 # Download and install the extension
 echo "Downloading newest version..."
-wget --show-progress -q -O ~/.local/share/nautilus-python/extensions/backspace-up.py https://raw.githubusercontent.com/7aman/backspace-up/master/backspace-up.py
+wget --show-progress -q -O ~/.local/share/nautilus-python/extensions/backspace-up.py https://raw.githubusercontent.com/riclc/nautilus_backspace/master/backspace-up.py
 
 # Restart nautilus
 echo "Restarting nautilus..."
