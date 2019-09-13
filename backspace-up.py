@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
 # by Ricardo Lenz, 2016-jun
@@ -12,8 +12,8 @@ from gi.repository import GObject, Nautilus, Gtk, Gio, GLib
 def ok():
     app = Gtk.Application.get_default()
     app.set_accels_for_action( "win.up", ["BackSpace"] )
-    #print app.get_actions_for_accel("BackSpace")
-    #print app.get_actions_for_accel("<alt>Up")
+    #print(app.get_actions_for_accel("BackSpace"))
+    #print(app.get_actions_for_accel("<alt>Up"))
 
 
 class BackspaceBack(GObject.GObject, Nautilus.LocationWidgetProvider):

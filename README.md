@@ -1,13 +1,15 @@
-*Nautilus Backspace*
+# Backspace-Up
 -----------------------
 Brings back the Backspace shortcut to Nautilus
 
-Installation
 -----------------------
-1) Install [Nautilus Python](https://wiki.gnome.org/Projects/NautilusPython) (`apt-get install python-nautilus` in Debian-based distributions)
- 
-2) Download `Backspace-Back.py` and put it here: `.local/share/nautilus-python/extensions/`
+## Dependencies
 
-(you might have to create this directory first)
+- python-nautilus or nautilus-python package [will install automatically]
 
-3) Restart Nautilus (`killall nautilus`)
+
+## Installation
+
+```shell
+wget -qO- https://raw.githubusercontent.com/7aman/backspace-up/master/install.sh | bash
+```
